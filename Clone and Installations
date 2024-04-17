@@ -16,4 +16,19 @@ To clone the repository from your GitHub account, you can follow these steps:
 
 5. After the cloning process is complete, you'll have a local copy of the repository in the specified directory.
 
-Now you can navigate into the cloned repository and start working on it or exploring its contents locally. If you have any further questions or need assistance, feel free to ask!
+==
+
+6. **Download Pretrained Google Word Vectors:**
+   ```
+   python -m gensim.downloader --download word2vec-google-news-300
+   ```
+   *Alternatively, follow the instructions in the gensim documentation.*
+
+7. **Download Pretrained char-rnn for Yelp:**
+   ```
+   curl -O https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5
+   ```
+   
+8.  **Rename the File:**
+   Rename the downloaded file to 'pretrained-yelp.hdf5'
+
