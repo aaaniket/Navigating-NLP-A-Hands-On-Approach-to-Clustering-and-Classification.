@@ -1,0 +1,19 @@
+To clone the repository from your GitHub account, you can follow these steps:
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the repository. You can use the `cd` command to change directories. For example:
+   ```
+   cd path/to/destination/directory
+   ```
+
+3. Once you're in the desired directory, use the `git clone` command followed by your repository's URL. Here's the command:
+   ```
+   git clone https://github.com/aaaniket/Navigating-NLP-A-Hands-On-Approach-to-Clustering-and-Classification.git
+   ```
+
+4. Press Enter to execute the command. Git will then clone the repository to your local machine.
+
+5. After the cloning process is complete, you'll have a local copy of the repository in the specified directory.
+
+Now you can navigate into the cloned repository and start working on it or exploring its contents locally. If you have any further questions or need assistance, feel free to ask!
